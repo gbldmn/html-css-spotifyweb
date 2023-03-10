@@ -51,6 +51,10 @@ main {
     text-align: center;
 }
 
+
+
+
+
 #aside-top img,
 #aside-bottom img {
     display: block;
@@ -65,6 +69,10 @@ main {
     opacity: 1;
 }
 
+.large {
+    display: none;
+}
+
 
 #aside-bottom {
     height: 90px;
@@ -74,15 +82,8 @@ main {
 #aside-bottom img:first-child{
      height: 14px;
 }
+ 
 
-.logo-small{
-    display: block;
-
-}
-
-.logo-large{
-    display: none;
-}
 
 
 /* cta */
@@ -139,6 +140,7 @@ main {
 
 #bottom-center-controllers i {
     margin: 0 0.5rem;
+    font-size: 12px;
 }
 
 #bottom-center-time .time-bg {
@@ -161,7 +163,12 @@ main {
      align-items: center;
 }
 
-
+#bottom-col-right .time-bg {
+    background-color: black;
+    height: 5px;
+    width: 50px;
+    border-radius: 10px;
+}
 
 
 
@@ -178,8 +185,12 @@ ul li {
     text-decoration: none;
     display: inline-block;
     padding: 3px;
-
 }
+
+a:hover {
+    color: white;
+}
+
 ul {
     padding: 1rem;
 }
@@ -264,10 +275,52 @@ main {
     #aside-top img {
           width: 10%;
      }
-
-     #bottom-center-controllers i {
-        margin: 0 1.5rem;
+    .secondo span {
+        color: white;
+        margin-bottom: 20px;
+        position: absolute;
+        top: 17px;
+        left: 44px
+        
     }
+    .secondo {
+        display: inline-block;
+        position: relative;
+    }
+    .secondo img {
+        display: inline-block;
+    }
+    .large  {
+        display: block;
+        
+    }
+    .primo {
+        display: none;
+        
+    }
+    #aside-top i {
+        color: white;
+        font-size: 50px;
+        display: inline-block;
+        margin-left: 30px;
+        position: absolute;
+        bottom: 1px;
+        left: 70px
+
+    }
+    #aside-top h2 {
+        color: white;
+        display: inline-block;
+        margin-right: 140px;
+        margin-top: 20px;
+    }
+    .plus {
+        position: relative;
+    }
+    .large img {
+        height: 40px;
+    }
+
 
 
 
@@ -278,6 +331,10 @@ main {
         .box {
             flex-basis: calc(100% / 4 - 2px);
         }
+        #bottom-center-controllers i {
+            margin: 0 1.5rem;
+        }
+
 }    
 
 
