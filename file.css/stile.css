@@ -47,7 +47,6 @@ main {
 #aside-top {
     height: calc(100% - 90px);
     min-height: 450px;
-    border: 3px dashed white;
     text-align: center;
 }
 
@@ -76,13 +75,13 @@ main {
 
 #aside-bottom {
     height: 90px;
-    border: 3px dashed white;
+   
 }
 
 #aside-bottom img:first-child{
      height: 14px;
 }
- 
+
 
 
 
@@ -169,7 +168,12 @@ main {
     width: 50px;
     border-radius: 10px;
 }
-
+#aside-top ul li {
+    display: none;
+}
+#aside-bottom span {
+    display: none;
+}
 
 
 
@@ -272,9 +276,7 @@ main {
         margin: 15px
 
     }
-    #aside-top img {
-          width: 10%;
-     }
+    
     .secondo span {
         color: white;
         margin-bottom: 20px;
@@ -318,7 +320,38 @@ main {
         position: relative;
     }
     .large img {
-        height: 40px;
+        height: 20px;
+    }
+    #aside-top ul li {
+        display: block;
+        color: white;
+        margin-right: 120px;
+    }
+
+
+    #aside-bottom img:last-child {
+         height: 15px;
+
+    }
+    
+    #aside-bottom img {
+        display: inline-block;
+
+    }
+    #aside-bottom span {
+        color: white;
+        display: block;
+        display: inline-block;
+        position: absolute;
+        font-size: 10px;
+        margin-top: 10px;
+        color: #777779;
+
+       
+        
+    }
+    #aside-bottom {
+       position: relative;
     }
 
 
